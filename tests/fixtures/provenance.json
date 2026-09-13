@@ -1,0 +1,23 @@
+{
+  "reference_project": "https://github.com/krstc/InkSight_adapt_HUAWEI_eink",
+  "reference_base_commit": "78ceea65ec754fcacc3a9a6036416b755bd2f64c",
+  "reference_includes_local_changes": true,
+  "reference_description": "Huawei A0/A1 driver with the A1 gate mapping and horizontal mirror correction, as locally confirmed on A1 hardware before extracting InkBLE.",
+  "source_sha256": {
+    "firmware/src/epd_driver.cpp": "30a4e5da4a890b572efebdb58758b2d3fed45687a452b4167a4052dd3fe500c2",
+    "firmware/src/epd_driver.h": "83334b7c73c271c7f8bbd1c015ee9cde8857b8594bb1c4337e55015eb928f107",
+    "firmware/src/config.h": "0d97097de64825b0fa9299308ba75233de661ac0d75f48800ae41a9f255d2f53",
+    "ble_firmware/tests/trace_epd.cpp": "87068a077a2d7b1d1fcf6e2d0985f609b1e4712c5dbaa04a1355ae4e88d85f41"
+  },
+  "input": "Top-down 768x552 2bpp, byte[i] = (i * 37 + i // 192) & 255. Reverse rows for the original color-UI buffer contract before epdDisplay2bpp; then call epdSleep.",
+  "traces": {
+    "huawei_a0.trace.gz": {
+      "uncompressed_sha256": "084ce841b27c0e1afefb01979c48fb9f52473f44d9603d1a25444e520041d5ee",
+      "uncompressed_bytes": 228688
+    },
+    "huawei_a1.trace.gz": {
+      "uncompressed_sha256": "fa772b5c6d641ecf8fba6a94cb9bf265c773030dfa04f8e64a8cd46343884bca",
+      "uncompressed_bytes": 228688
+    }
+  }
+}

@@ -1,0 +1,24 @@
+# Local environments and generated artifacts
+.venv/
+venv/
+.pio/
+__pycache__/
+*.py[cod]
+*.so
+*.dylib
+*.elf
+*.log
+*.dSYM/
+dist/
+.pytest_cache/
+
+# Local editor/system files and configuration
+.DS_Store
+.vscode/
+.idea/
+.env
+.env.*
+
+# Sender output (test-card.png remains tracked)
+preview.png
+*.2bpp

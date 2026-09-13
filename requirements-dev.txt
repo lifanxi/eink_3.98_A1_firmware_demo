@@ -1,0 +1,2 @@
+-r sender/requirements.txt
+platformio==6.2.0

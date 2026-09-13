@@ -1,0 +1,64 @@
+{
+  "hardware": "Huawei A1",
+  "chip": "ESP32-C3",
+  "flash": "DIO / 80 MHz / 4 MB",
+  "flash_offset": "0x0",
+  "image_size": [
+    768,
+    552
+  ],
+  "frame_bytes": 105984,
+  "platform": "espressif32@6.12.0",
+  "framework": "Arduino ESP32 2.0.17",
+  "nimble": "2.5.1",
+  "checks": [
+    "ESP32-C3 bootloader and application checksums and SHA256 verified",
+    "Merged application equals build output",
+    "Factory partition table and MD5 verified",
+    "NVS/PHY ranges erased; no OTA metadata image"
+  ],
+  "hardware_tested": false,
+  "source_sha256": {
+    "LICENSE": "4560dae1eb81dd68329a472d6d152a0f2cd710085be0a42443761b8bf431278c",
+    "NOTICE.md": "3a06c67c70432910e6a54a9f2ffe219b0360c2489f7dabba70365421cce6cd67",
+    "PROTOCOL.md": "ddc148d69e44844a8a84bf4cbf0d33f47e9c6b959efd0c630e8e4aa0b9436466",
+    "README.md": "be0376841e3e6e5c6b851d08bb9bf5f00b3be15d894f8db91622a871bfbb732a",
+    "partitions.csv": "78290c308352cba836734a2f3a7660609ab983a9af53ddcdf8a42da890e19b1b",
+    "platformio.ini": "e21fdf009a7c7a8e1709cc68ba25e7dd4db2670b7b755a33454467e823106fc5",
+    "requirements-dev.txt": "9ddbda368876b21c8b5168aec07df4ab797e5977897d8b8b4bd8f5e8ffc55969",
+    "sender/README.md": "3352cd38edaebd490db883bd69fc24f9c16bfc7d98ba9aa534469f93b3968079",
+    "sender/image_processing.py": "07db01e688345121cc8d2de34370ec77ecd02898f66b6d88e729380d7148ca1a",
+    "sender/protocol.py": "7515f6b4c2ad40b89ae49f51aed6659f81592dad79cd29fb9d63d4387ab4c4eb",
+    "sender/requirements.txt": "726e4e81aa874647e004720bc31531081e5ad0a89ec8f46ad005e9925c5a380b",
+    "sender/send_image.py": "9567d3384ccdc87bb350b73e0f77b52c6bae068dd346e4dcfb42834d471b89bd",
+    "sender/test-card.png": "971e07f755cfb9e20e85dbee073d98cb25b12049e79d0b2fa29dc546c18f3fd3",
+    "src/config.h": "9771da0d8b1a26ab2326c0fe68723bebda412501d4590a4315c1fd0d0ab7cdac",
+    "src/epd.cpp": "62fc4ae46bcb2654ceeb6c51b27032ef5b3f131f9a0c82ad348297f5332465c2",
+    "src/epd.h": "cec1ccb1b8427cc4741c218a9498c03781552ed062facfe7ecaea8cfa4913d53",
+    "src/main.cpp": "456496bf26872891a9765bc9475af6aeb4327a51437e5938c6852456bd197087",
+    "src/receiver.cpp": "5e5c0b7afc886799ad62d9b5355c1a6af558763e0081c9aaa131ab811a74a9a9",
+    "src/receiver.h": "838b1bdd5777c0324ae799ddd5de9ab3fcc0380b35282a929873c34c4bf9bbff",
+    "tests/Arduino.h": "a3e1f0f2047ff944c50377ed8e92b461fed6a89d996f5a41a2cd253392b4d283",
+    "tests/fixtures/README.md": "f20e527196bbbc1160f8f180e53713eeb4dc81bd5f1938af0e426838dc038c7d",
+    "tests/fixtures/huawei_a0.trace.gz": "1aa42eac6fd2040d80676434cdbc5ea90bd3568414f154d50506f6c826c1a35f",
+    "tests/fixtures/huawei_a1.trace.gz": "76b199a2e588fb3d7c123cb4bfb09f294dfadabe22e5050f0862efa8e28ed36b",
+    "tests/fixtures/provenance.json": "b4c5090e77157608b46cd9df1705e18f694bb62db10753c89163186fb6dae4b8",
+    "tests/receiver_bridge.cpp": "88e1ba7440e144d94fe753bf3ba0bdd0006449118a058e45fb29cf0bdda034f9",
+    "tests/test_suite.py": "b69796c220801f49353a7c84b929cda7f5bc7ef4f91c180f78a85ee958294d69",
+    "tests/trace_epd.cpp": "735f7c68cfd2a6d5c98153f033aa968a0e9934b7eee33ef654025ddfe968fc81",
+    "tools/create_test_card.py": "6280890d22e1c8e15605065db761fae9e1379b4f7d507db56d537d2f41836093",
+    "tools/merge_firmware.py": "1f772cef3c36dde53ef75ae237de1ed6d8b8e5535cc62fdd6722ed3565df45e8",
+    "tools/package_release.py": "3b3b4147fdb25e71dec3430172e8cefbfbd626bcf5607de50e34f22b6421f783"
+  },
+  "artifact": {
+    "inkble_huawei_a1_full_0x0.bin": {
+      "bytes": 564080,
+      "sha256": "a9511c08627e35f83c3663593de04f6c0f5dca3511e28025f3b85b46da3254bb"
+    }
+  },
+  "validation": {
+    "standalone_default_build": "huawei_a1: SUCCESS",
+    "host_tests": "28 passed",
+    "macos_hardware_ble_tested": false
+  }
+}
